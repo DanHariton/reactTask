@@ -102,3 +102,14 @@ dist
 
 # TernJS port file
 .tern-port
+catalog/README.md
+catalog/public/robots.txt
+catalog/.idea/modules.xml
+catalog/.idea/workspace.xml
+catalog/.idea/vcs.xml
+catalog/.idea/misc.xml
+catalog/.idea/vcs.xml
+catalog/.idea/inspectionProfiles/Project_Default.xml
+catalog/.idea/catalog.iml
+catalog/.idea/vcs.xml
+catalog/.idea/inspectionProfiles/Project_Default.xml
