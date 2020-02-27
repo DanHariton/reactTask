@@ -82,5 +82,21 @@ module.exports = {
                     callback(error.response);
                 }
             });
+    },
+
+    searchMovie: (searchingMovie, callback = null) => {
+        axios.get(basicUrl + '/search/movie?language=en-US&query=' + searchingMovie + '&page=1&include_adult=true' + apiKey)
+            .then(function (response) {
+                if (callback)
+                    callback(response.data.results);
+
+                return response;
+            })
+            .catch(function (error) {
+                console.log(error);
+                if (callback) {
+                    callback(error.response);
+                }
+            })
     }
 };

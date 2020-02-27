@@ -1,0 +1,16 @@
+.search-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search-not-result {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.search-tittle {
+    color: #ffffff;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}

@@ -50,3 +50,25 @@
 .movie-main-info {
     width: 50%;
 }
+
+.hidden {
+    display: none;
+}
+
+.play-button {
+    margin-top: 3%;
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid #e50914;
+    color: #e50914;
+    background-color: #ffffff;
+}
+
+.play-button:hover {
+    color: #ffffff;
+    background-color: #e50914;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+}

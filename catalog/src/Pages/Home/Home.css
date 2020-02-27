@@ -63,3 +63,37 @@
     color: #e50914;
     text-decoration: underline;
 }
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-form label {
+    width: 30%;
+}
+
+.search-area {
+    border-radius: 50px;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px 0 20px;
+    border: 1px solid #e50914;
+    font-size: 17px;
+}
+
+.search-button {
+    height: 47px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 5%;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    cursor: pointer;
+}
+
+.search-button img {
+    height: 28px;
+    padding-right: 15%;
+}
