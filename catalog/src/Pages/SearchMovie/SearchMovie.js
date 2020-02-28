@@ -41,7 +41,7 @@ class SearchMovie extends React.Component {
         return (
             <div>
                 <h1 className="app-tittle">
-                    <a href="/">APP TITLE</a>
+                    <a href="/">HD REZKA</a>
                 </h1>
                 <SearchForm searchValue={this.props.match.params.searchingMovie}/>
                 <h3 className="search-tittle">That's what we found for you:</h3>
