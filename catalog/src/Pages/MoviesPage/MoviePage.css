@@ -68,6 +68,7 @@
     border: 1px solid #e50914;
     color: #e50914;
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 .play-button:hover {
