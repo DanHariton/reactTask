@@ -55,7 +55,11 @@ const settings = {
     ]
 };
 
-
+/**
+ * @param props
+ * @returns {*}
+ * @constructor
+ */
 function HomeCategory(props) {
     return (
         <div className="category">

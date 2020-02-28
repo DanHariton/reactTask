@@ -51,6 +51,10 @@
     width: 50%;
 }
 
+.mobile-screen {
+    display: none;
+}
+
 .hidden {
     display: none;
 }
@@ -71,4 +75,69 @@
     background-color: #e50914;
     transition: color 0.3s;
     transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 1400px) {
+    .search-button {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mobile-screen {
+        margin: auto;
+        display: block;
+    }
+
+    .movie-main-info {
+        width: 100%;
+    }
+
+    .full-screen {
+        display: none;
+    }
+
+    .search-form label {
+        width: 40%;
+    }
+
+    .search-button {
+        width: 10%;
+    }
+
+    .play-button {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .play-button {
+        width: 50%;
+    }
+
+    .search-form label {
+        width: 70%;
+    }
+
+    .search-button {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .movie-about img {
+        width: 100%;
+    }
+
+    .play-button {
+        width: 100%;
+    }
+
+    .search-form label {
+        width: 70%;
+    }
+
+    .search-button {
+        width: 25%;
+    }
 }

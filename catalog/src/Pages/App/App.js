@@ -9,6 +9,10 @@ import Home from "../Home/Home";
 import MoviePage from "../MoviesPage/MoviePage";
 import SearchMovie from "../SearchMovie/SearchMovie";
 
+/**
+ * @returns {*}
+ * @constructor
+ */
 function App() {
   return (
       <div className="container">

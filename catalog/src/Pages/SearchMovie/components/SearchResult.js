@@ -1,6 +1,12 @@
 import React from "react";
 import HomeCategoryItem from "../../Home/components/HomeCategoryItem";
 
+/**
+ * render search result function
+ * @param props
+ * @returns {*}
+ * @constructor
+ */
 function SearchResult(props) {
     return (
         <div className="search-results">

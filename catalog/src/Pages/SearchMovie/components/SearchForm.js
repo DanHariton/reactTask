@@ -1,7 +1,9 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom'
 
-
+/**
+ * search form (readOnly)
+ */
 class SearchForm extends React.Component {
     constructor(props) {
         super(props);

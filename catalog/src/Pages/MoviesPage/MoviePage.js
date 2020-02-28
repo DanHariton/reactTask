@@ -6,6 +6,9 @@ import MovieApi from '../../util/MovieAPI';
 import 'shaka-player/dist/controls.css';
 import MovieAbout from "./components/MovieAbout";
 
+/**
+ * Render page with detail info about Movie
+ */
 class MoviePage extends React.Component {
     constructor(props) {
         super(props);
@@ -25,6 +28,9 @@ class MoviePage extends React.Component {
         }
     }
 
+    /**
+     * get all info about searching movie
+     */
     componentDidMount() {
         this.setState({loading: true});
         MovieApi.getAllInfoAboutMovie(this.props.match.params.id,(response) => {

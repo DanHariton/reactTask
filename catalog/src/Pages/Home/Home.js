@@ -4,6 +4,9 @@ import HomeCategory from "./components/HomeCategory";
 import MovieApi from '../../util/MovieAPI';
 import SearchModule from './components/SearchModule';
 
+/**
+ * render Home page with all modules
+ */
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -16,6 +19,9 @@ class Home extends React.Component {
         }
     }
 
+    /**
+     * get all movies for all category
+     */
     componentDidMount() {
         MovieApi.getMostPopularMovies((response) => {
             this.setState({popularMovies: response});
@@ -39,7 +45,7 @@ class Home extends React.Component {
         return (
             <div>
                 <h1 className="app-tittle">
-                    <a href="/">APP TITLE</a>
+                    <a href="/">HD REZKA</a>
                 </h1>
                 <SearchModule />
                 <HomeCategory categoryName="Popular movies" moviesList={this.state.popularMovies}/>

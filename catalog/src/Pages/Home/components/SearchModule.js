@@ -1,6 +1,9 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom'
 
+/**
+ * search Movie by some name
+ */
 class SearchModule extends React.Component {
     constructor(props) {
         super(props);
@@ -17,10 +20,16 @@ class SearchModule extends React.Component {
         this.setState({redirect: true})
     };
 
+    /**
+     * @param event
+     */
     handleChange(event) {
         this.setState({value: event.target.value});
     }
 
+    /**
+     * @param event
+     */
     handleSubmit(event) {
         if (this.state.value === '') {
             alert('You entered nothing! ');

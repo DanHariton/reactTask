@@ -1,5 +1,11 @@
 import React from "react";
 
+/**
+ * Render Metadata about movie
+ * @param props
+ * @returns {*}
+ * @constructor
+ */
 function MovieMetadata(props) {
     return (
         <div className="movie-metadata">

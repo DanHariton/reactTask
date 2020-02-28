@@ -5,6 +5,9 @@ import {withRouter} from "react-router";
 import SearchResult from "./components/SearchResult";
 import SearchForm from "./components/SearchForm";
 
+/**
+ * render Search movie page with all components
+ */
 class SearchMovie extends React.Component {
     constructor(props) {
         super(props);
@@ -14,6 +17,11 @@ class SearchMovie extends React.Component {
         };
     }
 
+    /**
+     * slice rezult for 5 items.. for test mode
+     * @param array
+     * @returns {*}
+     */
     sliceResult(array) {
         return array.slice(0, 5);
     }
